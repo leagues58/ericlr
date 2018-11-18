@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>ericlr-problems</title>
+  <title>ericlr-contact</title>
   <meta name="description" content="">
   <meta name="author" content="Eric Reeves">
 
@@ -33,18 +33,27 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-      <nav class="navbar">
-          <ul class="navbar-list">
-              <li class="navbar-item"><a class="navbar-link" href="contact.html">Contact</a></li> 
-              <li class="navbar-item"><a class="navbar-link" href="projects.html">Projects</a></li>
-              <li class="navbar-item"><a class="navbar-link" href="problems.html">Problems</a></li>
-              <li class="navbar-item"><a class="navbar-link" href="tutorials.html">Tutorials</a></li>
-              <li class="navbar-item"><a class="navbar-link" href="index.html">Home</a></li>
-          </ul>
-      </nav>
+    <?php require("partials/navheader.php");?>
     <div class="row">
       <div class="12 columns" style="margin-top: 15%">
-        <h4>Problems Page</h4>
+        <h4>Contact Page</h4>
+            <table class="u-full-width">
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Github</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Eric Reeves</td>
+                    <td>ericlreeves@gmail.com</td>
+                    <td><a href="https://github.com/leagues58">Link</a></td>
+
+                </tr>
+                </tbody>
+            </table>
       </div>
     </div>
 </div>

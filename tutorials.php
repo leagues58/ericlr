@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>ericlr</title>
+  <title>ericlr-tutorials</title>
   <meta name="description" content="">
   <meta name="author" content="Eric Reeves">
 
@@ -33,19 +33,11 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-      <nav class="navbar">
-          <ul class="navbar-list">
-              <li class="navbar-item"><a class="navbar-link" href="contact.html">Contact</a></li> 
-              <li class="navbar-item"><a class="navbar-link" href="projects.html">Projects</a></li>
-              <li class="navbar-item"><a class="navbar-link" href="problems.html">Problems</a></li>
-              <li class="navbar-item"><a class="navbar-link" href="tutorials.html">Tutorials</a></li>
-              <li class="navbar-item"><a class="navbar-link" href="index.html">Home</a></li>
-          </ul>
-      </nav>
+    <?php require("partials/navheader.php");?>
     <div class="row">
       <div class="12 columns" style="margin-top: 15%">
-        <h4>Ericlr</h4>
-        <p>This is the personal website of Eric Reeves. Here, I'll be posting things I've learned, problems I've solved, and projects I've worked on.</p>
+        <h4>Tutorials Page</h4>
+        - c# tutorials coming soon!
       </div>
     </div>
 </div>

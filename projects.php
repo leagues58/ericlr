@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>ericlr-tutorials</title>
+  <title>ericlr-projects</title>
   <meta name="description" content="">
   <meta name="author" content="Eric Reeves">
 
@@ -33,19 +33,10 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-      <nav class="navbar">
-          <ul class="navbar-list">
-              <li class="navbar-item"><a class="navbar-link" href="contact.html">Contact</a></li> 
-              <li class="navbar-item"><a class="navbar-link" href="projects.html">Projects</a></li>
-              <li class="navbar-item"><a class="navbar-link" href="problems.html">Problems</a></li>
-              <li class="navbar-item"><a class="navbar-link" href="tutorials.html">Tutorials</a></li>
-              <li class="navbar-item"><a class="navbar-link" href="index.html">Home</a></li>
-          </ul>
-      </nav>
+    <?php require("partials/navheader.php");?>
     <div class="row">
       <div class="12 columns" style="margin-top: 15%">
-        <h4>Tutorials Page</h4>
-        - c# tutorials coming soon!
+        <h4>Projects Page</h4>
       </div>
     </div>
 </div>
