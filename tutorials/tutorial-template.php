@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>ericlr-tutorials</title>
+  <title>TITLE HERE</title>
   <meta name="description" content="">
   <meta name="author" content="Eric Reeves">
 
@@ -19,13 +19,15 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/skeleton.css">
+  <link rel="stylesheet" href="../css/custom.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
+
+
 
 </head>
 <body>
@@ -33,18 +35,11 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-    <?php require("partials/navheader.php");?>
+
+    <?php include('../partials/navheader.php');?>
     <div class="row">
       <div class="12 columns" style="margin-top: 15%">
-        <h4>Tutorials Page</h4>
-        <ul>
-          <li>c#</li>
-          <li>server admin stuff</li>
-            <ul>
-              <li><a href="tutorials/adding-ssh-key-to-server.php">adding ssh key to server from new machine</a></li>
-            </ul>
-          <li>linux stuff</li>
-        </ul>
+        <h4>TITLE HERE</h4>
       </div>
     </div>
 </div>
