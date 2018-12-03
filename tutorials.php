@@ -41,7 +41,7 @@
           <li>c#</li>
           <li>server admin stuff</li>
             <ul>
-              <li><a href="tutorials/adding-ssh-key-to-server.php">adding ssh key to server from new machine</a></li>
+              <li><a href="tutorials/setting-up-local-dev-site.php">Setting Up A Local Dev Site Using XAMPP on Windows</a></li>
             </ul>
           <li>linux stuff</li>
         </ul>

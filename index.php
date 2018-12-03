@@ -33,7 +33,7 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-    <?php require("partials/navheader.php"); ?>
+    <?php require("partials/navheader.php");?>
     <div class="row">
       <div class="12 columns" style="margin-top: 15%">
         <h4>Ericlr</h4>

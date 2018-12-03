@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>TITLE HERE</title>
+  <title>Tutorials</title>
   <meta name="description" content="">
   <meta name="author" content="Eric Reeves">
 
