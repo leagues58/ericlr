@@ -40,6 +40,10 @@
     <div class="row">
       <div class="12 columns" style="margin-top: 15%">
         <h4>TITLE HERE</h4>
+        <p>
+          <?= nl2br("Created: ".date("F d, Y.",filectime("FILENAMEHERE.php")) . 
+          "\r\nLast modified: ".date("F d, Y.",filemtime("FILENAMEHERE.php")));?>
+        </p>
       </div>
     </div>
 </div>

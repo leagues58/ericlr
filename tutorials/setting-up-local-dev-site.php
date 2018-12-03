@@ -40,6 +40,10 @@
     <div class="row">
       <div class="12 columns" style="margin-top: 15%">
         <h4>Setting Up A Local Dev Site Using XAMPP on Windows</h4>
+        <p>
+          <?= nl2br("Created: ".date("F d, Y.",filectime("setting-up-local-dev-site.php")) . 
+          "\r\nLast modified: ".date("F d, Y.",filemtime("setting-up-local-dev-site.php")));?>
+        </p>
 
         <p>
           This seems like a good first tutorial to write seeing as I just spent the last hour working on this exact problem to get a dev version of this site running locally.
